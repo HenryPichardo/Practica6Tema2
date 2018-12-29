@@ -1,0 +1,48 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Modificar Registro</title>
+</head>
+<body>
+    <div>
+        <form method="post" action="/Home/Modificacion">
+            <h1>Registros de Productos</h1>
+            <table class="auto-style1">
+
+                <tr>
+                    <td>Descripcion</td>
+                    <td>
+                        <input type="text" name="Descripcion" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tipo</td>
+                    <td>
+                        <input type="text" name="Tipo" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="auto-style2">Precio</td>
+                    <td>
+                        <input type="text" name="Precio" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2"></td>
+                    <td>
+                        <input type="submit" value="Confirmar" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
